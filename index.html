@@ -110,13 +110,19 @@
         //const jsxElement = <h1>I am a jsx element</h1>
 
         // header of the website
+        const author = {
+          firstName: "Olalekan",
+          lastName: "Solomon"
+        }
         const header = (
             <header>
                 <div className = "header-wrapper">
                   <h1>Welcome to 30 days of react</h1>
                   <h2>Getting started with react</h2>
                   <h3>JavaScript Library</h3>
-                   <p>Solomon Excel</p>
+                   <p>
+                    Instructor: {author.firstName} {author.lastName}  
+                  </p>
                   <small>Nov 13, 2022</small>
                 </div>
             </header>
