@@ -10,7 +10,7 @@
 <sub>Author:
 <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
 <small> October, 2020</small>
-</sub>
+</sub> 
 
 </div>
 </div>
@@ -615,7 +615,7 @@ import asabenehImage from './images/asabeneh.jpg'
 
 const user = (
   <div>
-    <img src={asabenehImage} alt='asabeneh image' />
+    <img src={asabenehImage} alt='asabeneh image'/>
   </div>
 )
 
